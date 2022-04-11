@@ -39,7 +39,7 @@
     </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
     <LinearLayout
-        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:layout_centerInParent="true"
         android:id="@+id/linearName"
         android:layout_width="wrap_content"
@@ -62,7 +62,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:fontFamily="monospace"
-        android:hint=" Enter Your Name:"
+        android:hint="                 "
         android:imeOptions="actionNext"
         android:inputType="text"
         android:maxLength="100"
@@ -72,13 +72,50 @@
 
     </LinearLayout>
 
+    <LinearLayout
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/linearNumber"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/linearName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="number: "
+            android:textSize="25dp"
+            android:shadowColor="@color/white"></TextView>
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtTextNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="monospace"
+            android:hint="                  "
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLength="100"
+            android:maxLines="2"
+            android:minLines="1"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
     <RadioGroup
         android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/linearName"
+        android:layout_below="@id/linearNumber"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="80dp"
         android:orientation="horizontal">
 
         <RadioButton

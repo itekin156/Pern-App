@@ -109,22 +109,24 @@
                             android:textColor="@color/white"
                             ></TextView>
                         <TextView
-                            android:layout_marginTop="15dp"
+                            android:layout_marginTop="35dp"
                             android:fontFamily="sans-serif-light"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginHorizontal="16dp"
                             android:text="Name"
                             android:id="@+id/txtNameHome"
-                            android:textSize="15sp"
+                            android:shadowColor="@color/black"
+                            android:textSize="18sp"
                             android:textColor="@color/white"
                             ></TextView>
                         <TextView
+                            android:id="@+id/txtNumber"
                             android:fontFamily="sans-serif-light"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginHorizontal="16dp"
-                            android:text="0995183407"
+                            android:text="your number"
                             android:textSize="15sp"
                             android:textColor="@color/white"
                             ></TextView>

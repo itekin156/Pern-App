@@ -36,13 +36,13 @@ public class DatabaseHolder extends SQLiteOpenHelper
         onCreate(sqLiteDatabase);
     }
 
-    public boolean insertData(String name, String surname, int number)
+    public boolean insertData(String name, String number)
     {
                 SQLiteDatabase db = this.getWritableDatabase();
                 ContentValues cv = new ContentValues();
                 cv.put(COL_2, name);
-                cv.put(COL_3, surname);
-                cv.put(COL_4, number);
+                cv.put(COL_3, number);
+              //  cv.put(COL_4, number);
                 long result = db.insert(TABLE_NAME, null, cv);
                 if (result == -1) return false;
                 else return true;
