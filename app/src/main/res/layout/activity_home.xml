@@ -74,7 +74,7 @@
 
         <!--menu-->
         <com.mxn.soul.flowingdrawer_core.FlowingMenuLayout
-            android:id="@+id/menulayout"
+            android:id="@+id/menuLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
