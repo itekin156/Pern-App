@@ -7,8 +7,5 @@
     android:background="@drawable/shapsplash"
     tools:context=".MainActivity">
 
-    
-
-
 
 </LinearLayout>
